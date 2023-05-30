@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(8 , 1fr);
+    grid-template-rows: max-content minmax(min-content, max-content) 1fr  min-content max-content max-content;
+
+    // grid-template-areas: "header header header header header header header header"
+    //                      " about about about recommendation recommendation recommendation recommendation recommendation"
+    //                      "display display display display display display display display"
+    //                      "dealers dealers dealers dealers remarks remarks remarks remarks"
+    //                      "accounts accounts accounts accounts accounts accounts accounts accounts"
+    //                      "footer footer footer footer footer footer footer footer";
+}

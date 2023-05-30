@@ -1,0 +1,23 @@
+//globals
+@import '_variables.scss';
+@import '_utilities.scss';
+@import '_base.scss';
+@import '_components.scss';
+@import '_layout.scss';
+@import '_typography.scss';
+
+//specifics
+@import '_header.scss';
+@import '_accounts.scss';
+@import '_about.scss';
+@import '_recommendation.scss';
+@import '_display.scss';
+@import '_login.scss';
+@import '_remarks.scss';
+@import '_footer.scss';
+
+// log in page
+@import '/login/_login-header/login-header';
+@import '/login/_login-body/login-body';
+
+

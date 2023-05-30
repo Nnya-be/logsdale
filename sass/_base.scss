@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+    @include respond(largeScreen) {
+      font-size: 75%;
+    }
+
+  
+  @include respond(desktopLarge) {
+    font-size: 68%;
+  }
+  @include respond(desktopMedium) {
+    font-size: 65.63%;
+  }
+  @include respond(tabletLarge) {
+    font-size: 59.4%;
+  }
+  @include respond(tabletMedium) {
+    font-size: 56.3%;
+  }
+  @include respond(tabletSmall) {
+    font-size: 53.13%;
+  }
+  @include respond(phoneLarge) {
+    font-size: 50%;
+  }
+  @include respond(phoneMedium) {
+    font-size: 45.87%;
+  }
+  @include respond(phoneSmall) {
+    font-size: 43.8%;
+  }
+  
+}
+
+body {
+  line-height: 1.7;
+  font-weight: 400;
+  font-family: $font-main;
+  padding: 1rem;
+  color: $color-main;
+}

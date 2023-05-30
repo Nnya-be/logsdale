@@ -1,0 +1,35 @@
+
+.display{
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+    background-color: $color-secondary-dark;
+
+    padding: 5rem 0 4rem 0;
+
+    display: grid;
+    grid-template-rows: 20vh 1fr 5vh;
+    grid-row-gap: 5rem;
+
+    
+    &__header{
+        padding:2rem;
+        grid-row: 1 / 2;
+
+        display: grid;
+        grid-template-columns: repeat( 2 ,  1fr);
+
+
+    }
+
+}
+
+.card-container{
+    
+    display: grid;
+    grid-template-columns: repeat( auto-fit ,minmax( 30rem , 1fr));
+    
+    grid-gap: 2rem;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+
+}

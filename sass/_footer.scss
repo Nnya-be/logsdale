@@ -1,0 +1,106 @@
+.footer-container {
+  background-color: $color-main;
+  color: $color-secondary-dark-1;
+  padding: 4rem;
+  padding-top: 5rem;
+  grid-row: 6 / 7;
+  grid-column: 1 / -1;
+
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+
+  .footer {
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3rem;
+    font-family: $font-tertiary;
+
+    &-about {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      &__heading {
+        @include footer-heading;
+      }
+
+      &__list {
+        &--link {
+          @include footer-links;
+          border-radius: 3px;
+          transition: all cubic-bezier(0.165, 0.84, 0.44, 1);
+          &:hover {
+            background-color: $color-green;
+            color: $color-secondary-dark-3;
+            transform: translateX(4px);
+          }
+        }
+      }
+    }
+
+    &-service {
+      &__heading {
+        @include footer-heading;
+      }
+
+      &__type {
+        @include footer-links;
+        &--link {
+          display: inline-block;
+          padding: 1rem;
+          margin: 0 0.2rem;
+          border-radius: 3px;
+          transition: all cubic-bezier(0.165, 0.84, 0.44, 1);
+          &:hover {
+            background-color: $color-green;
+            color: $color-secondary-dark-3;
+            transform: translateX(4px);
+          }
+        }
+      }
+    }
+
+    &-social {
+      &__heading {
+        @include footer-heading;
+      }
+
+      &__list {
+        margin-top: 2rem;
+        &--link {
+          display: inline-block;
+          margin: 0 1rem;
+        }
+      }
+    }
+  }
+
+  .footer-nav {
+    grid-row: 2/3;
+    width: 60%;
+    align-self: center;
+    justify-self: center;
+    &__navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &--list {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $color-secondary-dark-2;
+
+        &--link {
+          transition: all cubic-bezier(0.165, 0.84, 0.44, 1);
+          &:hover {
+            background-color: $color-green;
+            color: $color-secondary-dark-3;
+            transform: translateX(4px);
+          }
+        }
+      }
+    }
+  }
+}

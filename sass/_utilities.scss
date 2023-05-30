@@ -1,0 +1,181 @@
+.icons {
+  height: 1rem;
+  width: 1rem;
+}
+
+.flinks:hover {
+  text-decoration: none;
+  transform: translateY(-3px);
+
+  transition: all 0.2s;
+}
+
+.remarks-icon {
+  height: 2rem;
+  width: 2rem;
+  fill: $color-secondary-dark-2;
+}
+
+.card-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.middle {
+  background-image: linear-gradient(
+    to right,
+    $color-red,
+    $color-secondary-dark-1
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid $color-red;
+
+  padding: 0.2rem 0.8rem;
+}
+
+.footer-link {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.icon-footer {
+  height: 2rem;
+  width: 2rem;
+}
+
+@mixin footer-heading {
+  font-size: 2rem;
+  font-weight: 550;
+  color: $color-secondary;
+  margin-bottom: 1rem;
+  cursor: default;
+}
+
+@mixin footer-links {
+  display: block;
+  padding: 0.35rem;
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+
+@mixin unskew {
+  transform: skewY(-2.8deg);
+}
+
+@mixin headers {
+  display: block;
+  font-size: 5rem;
+  font-family: $font-tertiary;
+  font-weight: 100;
+  text-align: center;
+}
+
+@mixin box-shadow {
+  box-shadow: 0 0.5rem 2rem rgba($color-black, 0.15);
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  // opacity: 1;
+  // transform: translateY(10rem);
+}
+
+.sticky {
+  grid-column: 1 / -1;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+///////////////////////////////  media query handler   ////////////////////////////////////
+
+@mixin respond($breakpoint) {
+  //small phones breakpoint 0px to 400px
+  @if $breakpoint == phoneSmall {
+    @media (max-width: 25em) {
+      @content;
+    }
+  }
+  // medium sized phones breakpoint 400px to 500px
+  @if $breakpoint == phoneMedium {
+    @media (max-width: 31.25em) {
+      @content;
+    }
+  }
+
+  //Large sized phones breakpoint 500px to 600px
+  @if $breakpoint == phoneLarge {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+  ////////////////----------------------------- TABLETS  --------------------------------////////////////////////
+  //Small seized Tablets breakpoint 600px to 700px
+  @if $breakpoint == tabletSmall {
+    @media (max-width: 43.75em) {
+      @content;
+    }
+  }
+
+  //Medium sized Tablets breakpoints 700 to 800
+  @if $breakpoint == tabletMedium {
+    @media (max-width: 50em) {
+      @content;
+    }
+  }
+
+  //Large sized Tablets breakpoints 800 to 900
+  @if $breakpoint == tabletLarge {
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  }
+
+  ///////////////////////------------------------ DESKTOP  ----------------------------/////////////////////
+  //   Small sized desktop breakpoints 900 to 1000
+  @if $breakpoint == desktopSmall {
+    @media (max-width: 62.5em) {
+      @content;
+    }
+  }
+  //   Medium sized desktop breakpoints 1100 to 1200
+  @if $breakpoint == desktopMedium {
+    @media (max-width: 68.75em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == desktopLarge {
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == desktopLarge {
+    @media (max-width: 81.25em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == largeScreen {
+    @media (max-width: 87.5em) {
+      @content;
+    }
+  }
+} ;

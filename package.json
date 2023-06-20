@@ -1,31 +1,24 @@
 {
-  "name": "webapp",
+  "name": "logsdale",
   "version": "1.0.0",
-  "description": "testing skills",
-  "main": "project.js",
+  "description": "An online trade fair",
+  "main": "home.js",
   "scripts": {
-    "watch:sass": "node-sass sass/project.scss styles/project.css -w",
-    "devserver": "live-server",
-    "start": "npm-run-all --parallel devserver watch:sass",
-    "compile:sass": "node-sass sass/project.scss project-comp.css",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' styles/project-comp.css -o styles/project-prefix.css",
-    "compress:css": "node-sass styles/preject-prefix.css styles/project.css --output-style compressed",
-    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+    "start": "parcel home.html",
+    "buld": "parcel build home.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nnya-be/logsdale.git"
   },
   "author": "Solomon Chamamme",
   "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "compress": "^0.99.0",
-    "concat": "^1.0.3",
-    "node-sass": "^7.0.3",
-    "npm-run-all": "^4.1.5",
-    "postcss-cli": "^10.0.0"
+  "bugs": {
+    "url": "https://github.com/Nnya-be/logsdale/issues"
   },
-  "dependencies": {
-    "all": "^0.0.0",
-    "babel": "^6.23.0",
-    "prettier": "^2.7.1",
-    "run": "^1.4.0"
+  "homepage": "https://github.com/Nnya-be/logsdale#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "sass": "^1.63.4"
   }
 }

@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,800&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/project.css" />
+    <link rel="shortcut icon" href="#" type="image.jpg" />
+
+    <title>LOGSDALE&dash; safety on deals</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header ">
+        <span class="header__company-name"> logsDale </span>
+        <nav class="navigation">
+          <ul class="navigation__items">
+            <li><a href="#section--1" class="navigation__links">About</a></li>
+            <li><a href="#section--2" class="navigation__links">Blog</a></li>
+            <li><a href="#section--3" class="navigation__links">Features</a></li>
+            <li><a href="#section--4" class="navigation__links">Accounts</a></li>
+            <li><a href="#footer" class="navigation__links">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="header__signing-options">
+          <a href="#" class="header__signing-options--login btn">Log In</a>
+          <a href="#" class="header__signing-options--signup btn">Sign up</a>
+        </div>
+      </header>
+      <section class="about" id="section--1">
+        <div class="about__div">
+          <div class="about__heading">
+            <span class="about__heading--main"> LogsDale </span>
+            <span class="about__heading--secondary"> safety on deals... </span>
+          </div>
+          <div class="about__button">
+            <a href="#" class="about__button--dealers btn"> Dealers </a>
+            <a href="#" class="about__button--customers btn"> Customers </a>
+            <a href="#" class="about__button--investors btn"> Investors </a>
+          </div>
+        </div>
+        <div class="about__paragraph">
+          <p class="about__paragraph--text">
+            Keeping up with the constant demands of all customers and dealers
+            all around the world might be overwhelming for you, sometimes the
+            pressure and the competition for good and loyal customers makes you
+            reconsider or have doubts of your investments or company really
+            growing, fear no more as LogsDale, a reputable and a well dignified
+            company with it's customers interests at heart. We make you serve
+            your your customers and dealers around the globe.
+          </p>
+
+          <a href="#" class="about__paragraph--button btn"
+            >Read more &rightarrow;</a
+          >
+        </div>
+      </section>
+      <section class="display hidden" id="section--2">
+        <div class="display__header">
+          <div class="popular">
+            <h3 class="popular__heading">Popular searches</h3>
+            <div class="popular__search">
+              <span class="popular__search--name"> Grocery </span>
+              <span class="popular__search--name"> Hardwares </span>
+              <span class="popular__search--name"> Fashion </span>
+              <span class="popular__search--name"> Automobiles </span>
+              <span class="popular__search--name"> Computers </span>
+              <span class="popular__search--name"> Medicines </span>
+            </div>
+          </div>
+          <div class="search">
+            <div class="search__area">
+              <svg class="search__area--icon icons">
+                <use xlink:href="pics/project.svg#icon-magnifyin--glass"></use>
+              </svg>
+              <input
+                type="text"
+                placeholder="search for companies,products,etc."
+                class="search__area--text"
+              />
+              <button class="search__area--button">search</button>
+            </div>
+
+            <button class="search__filter">
+              <span class="search__filter--text">filter</span>
+              <svg class="search__filter--icon icons">
+                <use xlink:href="pics/project.svg#"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
+            <img src="pics/pictures/pic4.jpg" alt="#" class="card__largeIM" />
+            <div class="card__groupIM">
+              <img
+                src="pics/pictures/pic1.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+              <img
+                src="pics/pictures/pic2.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+              <img
+                src="pics/pictures/pic3.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+            </div>
+            <div class="card__info">
+              <div class="card__info-1">
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Accra</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text"
+                    >Dealers in Grocery</span
+                  >
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Free Delivery</span>
+                </div>
+              </div>
+              <div class="card__info-2">
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">24/7 service</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Contact Us</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Trusted</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="pics/pictures/pic4.jpg" alt="#" class="card__largeIM" />
+            <div class="card__groupIM">
+              <img
+                src="pics/pictures/pic1.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+              <img
+                src="pics/pictures/pic2.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+              <img
+                src="pics/pictures/pic3.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+            </div>
+            <div class="card__info">
+              <div class="card__info-1">
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Accra</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text"
+                    >Dealers in Grocery</span
+                  >
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Free Delivery</span>
+                </div>
+              </div>
+              <div class="card__info-2">
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">24/7 service</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Contact Us</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Trusted</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="pics/pictures/pic4.jpg" alt="#" class="card__largeIM" />
+            <div class="card__groupIM">
+              <img
+                src="pics/pictures/pic1.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+              <img
+                src="pics/pictures/pic2.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+              <img
+                src="pics/pictures/pic3.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+            </div>
+            <div class="card__info">
+              <div class="card__info-1">
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Accra</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text"
+                    >Dealers in Grocery</span
+                  >
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Free Delivery</span>
+                </div>
+              </div>
+              <div class="card__info-2">
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">24/7 service</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Contact Us</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Trusted</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="pics/pictures/pic4.jpg" alt="#" class="card__largeIM" />
+            <div class="card__groupIM">
+              <img
+                src="pics/pictures/pic1.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+              <img
+                src="pics/pictures/pic2.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+              <img
+                src="pics/pictures/pic3.jpg"
+                alt="#"
+                class="card__groupIM--1"
+              />
+            </div>
+            <div class="card__info">
+              <div class="card__info-1">
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Accra</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text"
+                    >Dealers in Grocery</span
+                  >
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Free Delivery</span>
+                </div>
+              </div>
+              <div class="card__info-2">
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">24/7 service</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Contact Us</span>
+                </div>
+                <div class="card__info--container">
+                  <svg class="card__info--container-icon card-icons">
+                    <use xlink:href="pics/project.svg#"></use>
+                  </svg>
+                  <span class="card__info--container-text">Trusted</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toggle">
+          <div class="toggle__bar">
+            <span class="toggle__bar--text"> Prev </span>
+            <div class="toggle__bar--number">
+              <span class="toggle__bar--number-1">1</span>
+              <span class="toggle__bar--number-1">2</span>
+              <span class="toggle__bar--number-1">3</span>
+              <span class="toggle__bar--number-1">...</span>
+              <span class="toggle__bar--number-1 middle">8</span>
+              <span class="toggle__bar--number-1">9</span>
+              <span class="toggle__bar--number-1">10</span>
+              <span class="toggle__bar--number-1">11</span>
+            </div>
+            <span class="toggle__bar--text"> Next </span>
+          </div>
+          <div class="toggle__text">
+            &dash;
+            <span class="toggle__text--number">45</span>
+            <span class="toggle__text--items">items</span>
+            &dash;
+          </div>
+        </div>
+      </section>
+      <section class="chat hidden" id="section--3">
+        <h3 class="chat--heading">
+          Prefer to chat? Logs got you
+        </h3>
+        <div class="chat--options">
+          <!-- call card -->
+          <div class="options-card">
+            <svg class="options-card--header-icon">
+              <use xlink:href="pics/project.svg#icon-phone" ></use>
+            </svg>
+            <h4 class="options-card--header-text">
+              Call Us Today
+            </h4>
+            <p class="options-card--paragraph">
+              Ready to start the journey to meet more dealers?
+              Ring them today, our dealers are ready and waiting to
+              discuss your targets.
+            </p>
+            <button class="options-card--button">
+              <a href="#" class="options-card--button-link">
+                <svg class="options-card--button-icon">
+                  <use xlink:href="pics/project.svg#icon-phone" ></use>
+                </svg>
+                <span class="options-card--button-text">
+                  call now
+                </span>
+                <svg class="options-card--button-icon">
+                  <use xlink:href="pics/project.svg#icon-chevron-with-circle-right" ></use>
+                </svg>
+              </a>
+            </button>
+          </div>
+          <!-- chat card -->
+          <div class="options-card">
+            <svg class="options-card--header-icon">
+              <use xlink:href="pics/project.svg#icon-chat_bubble" ></use>
+            </svg>
+            <h4 class="options-card--header-text">
+              Chat A Dealer
+            </h4>
+            <p class="options-card--paragraph">
+              Got a question? Discuss it with a dealer  and get an instant answer for your query at your own comfort.
+            </p>
+            <button class="options-card--button">
+              <a href="#" class="options-card--button-link">
+                <svg class="options-card--button-icon">
+                  <use xlink:href="pics/project.svg#icon-chat_bubble" ></use>
+                </svg>
+                <span class="options-card--button-text">
+                  new chat
+                </span>
+                <svg class="options-card--button-icon">
+                  <use xlink:href="pics/project.svg#icon-chevron-with-circle-right" ></use>
+                </svg>
+              </a>
+            </button>
+          </div>
+            <!-- locate card -->
+          <div class="options-card">
+            <svg class="options-card--header-icon">
+              <use xlink:href="pics/project.svg#icon-location_on" ></use>
+            </svg>
+            <h4 class="options-card--header-text">
+              Locate Dealers
+            </h4>
+            <p class="options-card--paragraph">
+              Searching for Quality dealers around your location? Get a quality dealer just around your area waiting to serve you right.
+            </p>
+            <button class="options-card--button">
+              <a href="#" class="options-card--button-link">
+                <svg class="options-card--button-icon">
+                  <use xlink:href="pics/project.svg#icon-location_on" ></use>
+                </svg>
+                <span class="options-card--button-text">
+                  locate now
+                </span>
+                <svg class="options-card--button-icon">
+                  <use xlink:href="pics/project.svg#icon-chevron-with-circle-right" ></use>
+                </svg>
+              </a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="customer">
+            <div class="customer-remarks">
+                <div class="customer-remarks__header">
+                    
+                    <img src="pics/pictures/profile-pic1.jpg" alt="cutomer-pic" class="customer-remarks__header--picture">
+                    
+                    <div class="customer-remarks__header--name"> 
+                        <svg class="remarks-icon" >
+                            <use xlink:href="pics/project.svg#icon-dot-single" ></use>
+                        </svg>
+                        <span>
+                            Mary Carnigie
+                        </span>
+                    </div>
+                    <svg class="customer-remarks__header--icon remarks-icon">
+                        <use xlink:href="pics/project.svg#icon-dots-three-vertical" ></use>
+                    </svg>
+                </div>
+                <div class="customer-remarks__comment">
+                    <span class="customer-remarks__comment--text">
+                        At first I thought I am going to be scammed but then the company really showed thier
+                        credibility.Since then anytime i want to buy some hardwares I just order and it's been deliveresd faster
+                    </span>
+                    
+                </div>
+                <div class="customer-remarks__comment--time">
+                    <span class="customer-remarks__comment--time-number">
+                        4
+                    </span>
+                    <span class="customer-remarks__comment--time-text">
+                        hrs ago
+                    </span>
+                </div>
+                <div class="customer-remarks__actions">
+                    <div class="customer-remarks__actions--agree">
+                        <svg class="customer-remarks__actions--agree-icon remarks-icon">
+                            <use xlink:href="pics/project.svg#icon-thumb_up_alt"></use>
+                        </svg>
+                        <span class="customer-remarks__acitons--agree-number">
+                            24
+                        </span>
+                    </div>
+                    <div class="customer-remarks__actions--thoughts">
+                        <svg class="customer-remarks__actions--thoughts-icon remarks-icon">
+                            <use xlink:href="pics/project.svg#icon-chat_bubble"></use>
+                        </svg>
+                        <span class="customer-remarks__acitons--thoughts-number">
+                            17
+                        </span>
+                    </div>
+                    <div class="customer-remarks__actions--bookmark">
+                        <svg class="customer-remarks__actions--bookmark-icon remarks-icon">
+                            <use xlink:href="pics/project.svg#icon-bookmark"></use>
+                        </svg>
+                    </div>
+                    <div class="customer-remarks__actions--link">   
+                        <svg class="remarks-icon customer-remarks__actions--link-icon">
+                            <use xlink:href="pics/project.svg#icon-link"></use>
+                        </svg>  
+                    </div>
+                </div>
+            </div>
+             <div class="customer-remarks">
+                <div class="customer-remarks__header">
+                    
+                    <img src="pics/pictures/profile-pic2.jpg" alt="cutomer-pic" class="customer-remarks__header--picture">
+                    
+                    <span class="customer-remarks__header--name">  &dot; Arthur Theresah</span>
+                    <svg class="customer-remarks__header--icon remarks-icon">
+                        <use xlink:href="pics/project.svg#icon-attachment" ></use>
+                    </svg>
+                </div>
+                <div class="customer-remarks__comment">
+                    <span class="customer-remarks__comment--text">
+                        What kept me going through out all the days I was trying to get a very good dealer was the fact that
+                        good companies still exist. Lo and behold I found the best company for that.
+                    </span>
+                    
+                </div>
+                <div class="customer-remarks__comment--time">
+                    <span class="customer-remarks__comment--time-number">
+                        1
+                    </span>
+                    <span class="customer-remarks__comment--time-text">
+                        min ago
+                    </span>
+                </div>
+                <div class="customer-remarks__actions">
+                    <div class="customer-remarks__actions--agree">
+                        <svg class="customer-remarks__actions--agree-icon remarks-icon">
+                            <use xlink:href="pics/project.svg#icon-thumb_up_alt"></use>
+                        </svg>
+                        <span class="customer-remarks__acitons--agree-number">
+                            90
+                        </span>
+                    </div>
+                    <div class="customer-remarks__actions--thoughts">
+                        <svg class="customer-remarks__actions--thoughts-icon remarks-icon">
+                            <use xlink:href="pics/project.svg#icon-chat_bubble"></use>
+                        </svg>
+                        <span class="customer-remarks__acitons--thoughts-number">
+                            3
+                        </span>
+                    </div>
+                    <div class="customer-remarks__actions--bookmark">
+                        <svg class="customer-remarks__actions--bookmark-icon remarks-icon">
+                            <use xlink:href="pics/project.svg#icon-bookmark"></use>
+                        </svg>
+                    </div>
+                    <div class="customer-remarks__actions--link">   
+                        <svg class="remarks-icon customer-remarks__actions--link-icon">
+                            <use xlink:href="pics/project.svg#icon-link"></use>
+                        </svg>  
+                    </div>
+                </div>
+            </div>
+            <div class="customer-remarks">
+                <div class="customer-remarks__header">
+                    
+                    <img src="pics/pictures/profile-pic3.jpg" alt="cutomer-pic" class="customer-remarks__header--picture">
+                    
+                    <span class="customer-remarks__header--name">  &dot; Asare Austin </span>
+                    <svg class="customer-remarks__header--icon remarks-icon">
+                        <use xlink:href="pics/project.svg#icon-attachment" ></use>
+                    </svg>
+                </div>
+                <div class="customer-remarks__comment">
+                    <span class="customer-remarks__comment--text">
+                        Hey! I will only recommend you do all your deals with the new toyota workshop at Awoshie. They've got one of
+                        the best customer care services. No long talks just try contacting them.
+                    </span>
+                    
+                </div>
+                <div class="customer-remarks__comment--time">
+                    <span class="customer-remarks__comment--time-number">
+                        6
+                    </span>
+                    <span class="customer-remarks__comment--time-text">
+                        hrs ago
+                    </span>
+                </div>
+                <div class="customer-remarks__actions">
+                    <div class="customer-remarks__actions--agree">
+                        <svg class="customer-remarks__actions--agree-icon remarks-icon">
+                            <use xlink:href="pics/project.svg#icon-thumb_up_alt"></use>
+                        </svg>
+                        <span class="customer-remarks__acitons--agree-number">
+                            51
+                        </span>
+                    </div>
+                    <div class="customer-remarks__actions--thoughts">
+                        <svg class="customer-remarks__actions--thoughts-icon remarks-icon">
+                            <use xlink:href="pics/project.svg#icon-chat_bubble"></use>
+                        </svg>
+                        <span class="customer-remarks__acitons--thoughts-number">
+                            22
+                        </span>
+                    </div>
+                    <div class="customer-remarks__actions--bookmark">
+                        <svg class="customer-remarks__actions--bookmark-icon remarks-icon">
+                            <use xlink:href="pics/project.svg#icon-bookmark"></use>
+                        </svg>
+                    </div>
+                    <div class="customer-remarks__actions--link">   
+                        <svg class="remarks-icon customer-remarks__actions--link-icon">
+                            <use xlink:href="pics/project.svg#icon-link"></use>
+                        </svg>  
+                    </div>
+                </div>
+            </div> 
+        </section> -->
+      <section class="accounts hidden" id="section--4">
+        <h2 class="accounts__header">Follow Company Accounts</h2>
+        <div class="acc-card">
+          <div class="acc-card__header">
+            <img
+              src="pics/pictures/profile-pic3.jpg"
+              alt="photo"
+              class="acc-card__header--img"
+            />
+            <button class="acc-card__header--button">follow</button>
+          </div>
+          <div class="acc-card__names">
+            <div class="acc-card__names--username">
+              Chamamme Nnyabe
+
+              <svg class="acc-card__names--username-verify icon">
+                <use xlink:href="pics/project.svg#icon-verified"></use>
+              </svg>
+            </div>
+            <span class="acc-card__names--profilename"> @nnyabecha </span>
+          </div>
+          <p class="acc-card__description">
+            Looking for the best realation with your customers is one of the
+            reasons @holmes seek to know the best interest of it's customers.
+          </p>
+          <div class="acc-card__info">
+            <div class="acc-card__info--followers">
+              <span class="acc-card__info--followers-number"> 17.3K </span>
+              <span class="acc-card__info--followers-text"> Followers </span>
+
+              <svg class="acc-card__info--followers-icon">
+                <use xlink:href="pics/project.svg#icon-dot-single"></use>
+              </svg>
+            </div>
+
+            <div class="acc-card__info--following">
+              <span class="acc-card__info--following-number"> 1.3K </span>
+              <span class="acc-card__info--following-text"> Following </span>
+
+              <svg class="acc-card__info--following-icon">
+                <use xlink:href="pics/project.svg#icon-dot-single"></use>
+              </svg>
+            </div>
+
+            <span class="acc-card__info--date"> Since April 20,2011 </span>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-container" id="footer">
+        <div class="footer">
+          <div class="footer-about">
+            <h3 class="footer-about__heading">About logsDale</h3>
+            <ul class="footer-about__list list">
+              <li class="footer-about__list--link">
+                <a href="#" class="footer-about__list--link footer-link"
+                  >Home</a
+                >
+              </li>
+              <li class="footer-about__list--link">
+                <a href="#" class="footer-about__list--link footer-link"
+                  >Becaome a customer</a
+                >
+              </li>
+              <li class="footer-about__list--link">
+                <a href="#" class="footer-about__list--link footer-link"
+                  >About us</a
+                >
+              </li>
+              <li class="footer-about__list--link">
+                <a href="#" class="footer-about__list--link footer-link">FAQ</a>
+              </li>
+              <li class="footer-about__list--link">
+                <a href="#" class="footer-about__list--link footer-link"
+                  >Return policy</a
+                >
+              </li>
+              <li class="footer-about__list--link">
+                <a href="#" class="footer-about__list--link footer-link"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-service">
+            <h3 class="footer-service__heading">Services info</h3>
+            <ul class="footer-service__type list">
+              <li class="footer-service__type--link">
+                <a href="#" class="footer-link">Wholesales</a>
+              </li>
+              <li class="footer-service__type--link">
+                <a href="#" class="footer-link">Cooperate marketing</a>
+              </li>
+              <li class="footer-service__type--link">
+                <a href="#" class="footer-link">Commisioning</a>
+              </li>
+              <li class="footer-service__type--link">
+                <a href="#" class="footer-link">Dealing</a>
+              </li>
+              <li class="footer-service__type--link">
+                <a href="#" class="footer-link">Share holder</a>
+              </li>
+              <li class="footer-service__type--link">
+                <a href="#" class="footer-link">Distributor</a>
+              </li>
+              <li class="footer-service__type--link">
+                <a href="#" class="footer-link">Pick up</a>
+              </li>
+              <li class="footer-service__type--link">
+                <a href="#" class="footer-link">Advertisement</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3 class="footer-social__heading">Get in touch</h3>
+            <ul class="footer-social__list list">
+              <li class="footer-social__list--link">
+                <a href="#" class="footer-social__list--link-icon">
+                  <svg class="icon-footer">
+                    <use xlink:href="pics/project.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__list--link">
+                <a href="#" class="footer-social__list--link-icon">
+                  <svg class="icon-footer">
+                    <use xlink:href="pics/project.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__list--link">
+                <a href="#" class="footer-social__list--link-icon">
+                  <svg class="icon-footer">
+                    <use xlink:href="pics/project.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__list--link">
+                <a href="#" class="footer-social__list--link-icon">
+                  <svg class="icon-footer">
+                    <use xlink:href="pics/project.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social__list--link">
+                <a href="#" class="footer-social__list--link-icon">
+                  <svg class="icon-footer">
+                    <use xlink:href="pics/project.svg#icon-gmail"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <ul class="footer-nav__navigation list">
+            <li class="footer-nav__navigation--list">
+              <a href="#" class="footer-link">Terms of purchase</a>
+            </li>
+            <li class="footer-nav__navigation--list">
+              <a href="#" class="footer-link">Security and privacy</a>
+            </li>
+            <li class="footer-nav__navigation--list">
+              <a href="#" class="footer-link">Newsletter</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+  
+  <script defer src="home.js"></script>
+</html>
